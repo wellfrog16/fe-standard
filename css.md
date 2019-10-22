@@ -1,8 +1,7 @@
 # CSS规范
 
-这里的Css指的是`纯粹的Css/Less/Sass文件`，Vue文件的style对应的Css规范，查看 [Vue - Css](/vue)  
-
-关于`样式污染和样式冲突`，推荐使用vue/react内置的 [Css Module](https://vue-loader.vuejs.org/zh/guide/css-modules.html) 解决
+解决`样式污染和样式冲突`，推荐使用vue/react内置的 [Css Module](https://vue-loader.vuejs.org/zh/guide/css-modules.html) 解决  
+不推荐使用scope的方式
 
 ## 命名规范
 
@@ -41,7 +40,7 @@ margin: 0em;
 padding-bottom: 0;
 margin: 0;
 ```
-* 使用Less/Sass时，样式嵌套深度不大于3层
+* 使用Less/Sass时，`避免使用嵌套`，如嵌套，深度不大于3层。
 * 如没有兼容性要求，尽量采用 [flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ## 语义化标签

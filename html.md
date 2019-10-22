@@ -1,6 +1,6 @@
 # HTML规范
 
-这里的Html指的是`纯粹的Html文件`，Vue文件的template对应的Html规范，查看 [Vue - Template](/vue)
+这里的Html指的是`纯粹的Html文件`，Vue文件的template对应的Html规范，查看 [Vue - template](/vue?id=html-template)
 
 
 ## 引用资源
