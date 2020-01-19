@@ -1,6 +1,7 @@
 # Commit规范
 
 [本规范来源](https://github.com/Tencent/wepy/blob/2.0.x/CONTRIBUTING_COMMIT.md)
+
 在对项目作出更改后，我们需要生成 commit 来记录自己的更改。以下是参照 Angular 对 commit 格式的规范：
 
 ## (1) 格式
