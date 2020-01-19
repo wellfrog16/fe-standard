@@ -3,4 +3,5 @@
 - [Javascript](/javascript)
 - [Vue](/vue)
 - [Git](/git)
+- [Commit](/commit)
 - [Code Review](/review)
