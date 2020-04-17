@@ -1,6 +1,7 @@
 module.exports = {
     title: '前端开发规范',
     description: 'Just playing around',
+    base: '/fe-standard/', // github发布打开
     dest: './dist/',
     themeConfig: {
         lastUpdated: '最后更新',
