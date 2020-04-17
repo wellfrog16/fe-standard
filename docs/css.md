@@ -4,7 +4,9 @@ sidebarDepth: 2
 
 # CSS规范
 
-解决`样式污染和样式冲突`，推荐使用vue/react内置的 [Css Module](https://github.com/css-modules/css-modules) 解决  
+解决`样式污染和样式冲突`，推荐使用vue/react内置的`Css Module`解决
+
+> [Css Module](https://github.com/css-modules/css-modules)
 
 ## 命名规范
 
@@ -44,12 +46,15 @@ padding-bottom: 0;
 margin: 0;
 ```
 * 使用Less/Sass时，`避免使用嵌套`，如嵌套，深度不大于3层。
-* 如没有兼容性要求，尽量采用 [flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+* 如没有兼容性要求，尽量采用 `flex布局`
+
+> [flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ## 语义化标签
 
 html提供许多语义化标签，尽量使用它们，减少class的使用
-[html5标签](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
+
+> [html5标签](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
 
 ## 常用名称
 

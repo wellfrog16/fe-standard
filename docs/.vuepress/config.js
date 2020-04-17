@@ -3,7 +3,7 @@ module.exports = {
     description: 'Just playing around',
     dest: './dist/',
     themeConfig: {
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最后更新',
         // nav: [
         //     { text: 'Home', link: '/' },
         //     { text: 'Guide', link: '/guide/' },
@@ -18,13 +18,33 @@ module.exports = {
         // ],
         sidebar: [
             {
+                title: 'HTML',
+                path: '/html',
+            },
+            {
                 title: 'CSS',
                 path: '/css',
             },
             {
-                title: 'Group 2',   // 必要的
-                path: '/mine',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                sidebarDepth: 2,    // 可选的, 默认值是 1
+                title: 'Javascript',
+                path: '/javascript',
+            },
+            {
+                title: 'Typescript',
+                path: '/typescript',
+            },
+            {
+                title: 'Vue',
+                path: '/vue',
+                sidebarDepth: 2,
+            },
+            {
+                title: 'React',
+                path: '/react',
+            },
+            {
+                title: 'Git',
+                path: '/git',
             },
         ],
         // displayAllHeaders: true,
